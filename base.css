@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #8BD5F2;
 }
 .main {
     display: flex;
@@ -20,11 +20,11 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #8BD5F2;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: white;
     min-height: 150px;
 }
 .content {
@@ -33,6 +33,17 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #8BD5F2;
     min-height: 150px;
+}
+table thead th{
+    background-color: black;
+    color: white;
+}
+table tbody tr:nth-child(even){
+    background-color: #8BD5F2;
+}
+table tbody tr:hover{
+    background-color: green;
+    cursor: pointer;
 }
